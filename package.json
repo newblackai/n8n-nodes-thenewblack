@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-thenewblack",
-  "version": "0.1.0",
-  "description": "n8n node for The New Black AI: generate fashion images and videos \u2014 product to model, virtual try-on, ghost mannequin, free prompt image and video.",
+  "version": "0.1.1",
+  "description": "n8n node for The New Black AI: generate fashion images and videos — product to model, virtual try-on, ghost mannequin, free prompt image and video.",
   "license": "MIT",
   "homepage": "https://thenewblack.ai/clothing_fashion_api_integrations",
   "keywords": [

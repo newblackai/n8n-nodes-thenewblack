@@ -49,4 +49,5 @@ Result URLs are kept for 48 hours: copy the file somewhere of your own if you ne
 
 ## Version history
 
+- **0.1.1** — Published from GitHub Actions with provenance.
 - **0.1.0** — Free Prompt Image, Product to Model, Virtual Try-On, Ghost Mannequin, Free Prompt Video, Get Generation.
