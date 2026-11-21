@@ -1,0 +1,14 @@
+{
+	"node": "n8n-nodes-thenewblack.theNewBlack",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing & Content"],
+	"resources": {
+		"credentialDocumentation": [
+			{ "url": "https://thenewblack.ai/clothing_fashion_api_integrations" }
+		],
+		"primaryDocumentation": [
+			{ "url": "https://thenewblack.ai/clothing_fashion_api_integrations" }
+		]
+	}
+}

@@ -1,0 +1,58 @@
+{
+  "name": "n8n-nodes-thenewblack",
+  "version": "0.1.0",
+  "description": "n8n node for The New Black AI: generate fashion images and videos \u2014 product to model, virtual try-on, ghost mannequin, free prompt image and video.",
+  "license": "MIT",
+  "homepage": "https://thenewblack.ai/clothing_fashion_api_integrations",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "the new black ai",
+    "fashion",
+    "ai",
+    "virtual try-on",
+    "product to model",
+    "ghost mannequin"
+  ],
+  "author": {
+    "name": "The New Black AI",
+    "email": "team@thenewblack.ai",
+    "url": "https://thenewblack.ai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newblackai/n8n-nodes-thenewblack.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "release": "n8n-node release",
+    "prepublishOnly": "n8n-node prerelease"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": true,
+    "credentials": [
+      "dist/credentials/TheNewBlackApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/TheNewBlack/TheNewBlack.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "*",
+    "eslint": "9.32.0",
+    "prettier": "3.6.2",
+    "release-it": "^21.1.0",
+    "typescript": "5.9.2"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}
